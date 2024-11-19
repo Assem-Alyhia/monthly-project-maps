@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+
+
+.section11{
+    background-color: #0d1b47;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: #fff;
+}
+
+.symptoms-section {
+    text-align: center;
+    padding: 2rem;
+    color: #b0bec5;
+    max-width: 800px;
+}
+
+.section-subtitle {
+    font-size: 1rem;
+    color: #ccc;
+    margin-bottom: 0.5rem;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+.section-title span {
+    color: #00bfff;
+}
+
+.section-description {
+    font-size: 1rem;
+    color: #b0bec5;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+
+.symptoms-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.symptoms-image {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.symptom-label {
+    position: absolute;
+    background-color: #C4C4C433;
+    color: #00bfff;
+    padding: 0rem ;
+    border-radius: 8px;
+    font-size: 0.6rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.virus-icon {
+    width: 3rem;
+    height: 3rem;
+}
+
+/* Position each symptom label */
+.high-fever { top: 0%; left: 5%; }
+.dry-cough { top: 25%; left: -5%; }
+.loss-smell { bottom: 33%; left: -20%; }
+.loss-taste { top: 0%; right: -10%; }
+.difficulty-breathing { top: 25%; right: -20%; }
+.sore-throat { bottom: 33%; right: -20%; }

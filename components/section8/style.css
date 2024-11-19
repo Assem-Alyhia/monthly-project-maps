@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.section8 {
+    background-color: #0d1b47;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.immune-protection-card {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 16px;
+    padding: 2rem;
+    width: 100%;
+    max-width: 350px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    text-align: left;
+    color: #fff;
+}
+
+.immune-card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.immune-icon {
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.immune-title {
+    font-size: 1.125rem;
+    color: #00bfff;
+    font-weight: bold;
+}
+
+.immune-description {
+    font-size: 0.875rem;
+    color: #b0bec5;
+    line-height: 1.5;
+}
+
+.immune-read-more {
+    font-size: 0.875rem;
+    color: #00bfff;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: color 0.3s ease;
+}
+
+.immune-read-more:hover {
+    color: #29a3db;
+}

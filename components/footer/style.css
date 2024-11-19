@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.section14 {
+}
+
+/* Footer Section Styles */
+.section14 .footer-section {
+    background-color: #1a1a3b;
+    padding: 40px 20px;
+    color: #fff;
+    text-align: left;
+}
+
+.section14 .footer-content {
+    max-width: 400px;
+    margin: auto;
+}
+
+.section14 .footer-content h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.section14 .footer-content h2::after {
+    content: "";
+    display: block;
+    width: 30%;
+    height: 2px;
+    background-color: #00aaff;
+    margin: 1rem 0;
+}
+
+.section14 .footer-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 1.5rem 0;
+}
+
+.section14 .footer-menu a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-size: 1em;
+    transition: color 0.3s;
+}
+
+.section14 .footer-menu a.active {
+    color: #fff;
+    font-weight: bold;
+}
+
+.section14 .footer-menu a:hover {
+    color: #00aaff;
+}
+
+.section14 .social-icons {
+    display: flex;
+    justify-content: left;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+.section14 .social-icons a img {
+    width: 1.2rem;
+    height: 1.2rem;
+    transition: transform 0.3s;
+}
+
+.section14 .social-icons a:hover img {
+    transform: scale(1.1);
+}

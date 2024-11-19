@@ -1,0 +1,990 @@
+
+
+@media (min-width: 769px) {
+    .vaccination-nav .navbar-nav {
+        display: flex !important; 
+    }
+    .vaccination-nav .vaccination-logo {
+        font-size: 1.2rem;
+    }
+    .vaccination-nav .vaccination-menu-btn {
+        display: none; 
+    }
+    .vaccination-nav .status-btn {
+        display: inline-block; 
+    }
+    .vaccination-nav .navbar-nav .nav-link {
+        font-size: .8rem;
+        margin-right: 1rem;
+    }
+    .vaccination-nav .navbar-nav .nav-link.active::after {
+        bottom: -5px;
+        left: 35%;
+        content: "•";
+    }
+    .navbar-expand-md .navbar-collapse{
+        flex-grow: 0;
+        width: 70%;
+    }
+    
+.vaccination-nav .status-btn {
+
+    padding:  .7rem 1.2rem;
+    border-radius: 15px;
+    text-decoration: none;
+    font-size: .8rem;
+    font-weight: 700;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.vaccination-nav .navbar-nav .nav-link.active::after {
+    bottom: -9px;
+    left: 32%;
+    content: "•";
+}
+
+}
+
+@media (min-width: 1440px) {
+    .vaccination-nav .navbar-nav {
+        display: flex !important; 
+    }
+    .vaccination-nav .vaccination-logo {
+        font-size: 2rem;
+    }
+    .vaccination-nav .vaccination-menu-btn {
+        display: none; 
+    }
+    .vaccination-nav .status-btn {
+        display: inline-block; 
+    }
+    .vaccination-nav .navbar-nav .nav-link {
+        font-size: 1.5rem;
+        margin-right: 1.5rem;
+    }
+    .vaccination-nav .navbar-nav .nav-link.active::after {
+        bottom: -10px;
+        left: 35%;
+        content: "•";
+    }
+    .navbar-expand-md .navbar-collapse{
+        flex-grow: 0;
+        width: 70%;
+    }
+    .vaccination-nav .status-btn {
+        padding:  1.25rem 1.625rem;
+        border-radius: 20px;
+        text-decoration: none;
+        font-size: 1.5rem;
+        font-weight: 700;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+    .hero{
+        padding: 3rem;
+        width: 31.375rem;
+    }
+    .hero .title {
+        font-weight: 700;
+        font-size: 2.25rem;
+    }
+
+    .hero .description {
+        font-weight: 700;
+        font-size: 1.125rem;
+        margin-top: 2.5rem;
+    }
+    .sectionHero{
+        justify-content: left;
+    }
+}
+
+@media (min-width: 1440px) {
+    .hero {
+        padding: 2.5rem;
+    }
+
+    .hero .title {
+        font-size: 3rem;
+    }
+
+    .hero .description {
+        font-size: 1.25rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+    .hero{
+        padding: 2rem;
+    }
+    .button-section {
+        gap: 1rem;
+        width: 55%;
+        justify-content: start  ;
+    }    
+}
+
+
+@media (min-width: 1440px) {
+
+        .button-section {
+            padding: 0;
+    }    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+@media (min-width: 768px) {
+    .hero{
+        padding: 1rem 2rem  !important; 
+    }
+    .heroD{
+        padding: 3rem 1rem;
+    }
+    .heroD .heroD1{
+        width: 100%;
+        
+    }
+    .btn-filled{
+        border-radius: 10px !important;
+    }
+    .btn-outline{
+        border-radius: 10px !important;
+    }
+    .side-images .img{
+        width: 5rem;
+        height: 5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .side-images{
+        display: flex;
+        justify-content: space-between;
+        width: 115%;
+        margin: auto;
+        top: 40%;
+        position: absolute;
+        max-width: 115%;
+        left: -2.5rem;
+    }
+    .static-images{
+        position: absolute;
+        background: #ffffff6b;
+        padding: 1rem 1rem;
+        border-radius: 10px;
+        display: flex;
+        width: 70%;
+        justify-content: center;
+        align-items: center;
+        bottom: -43px;
+        left: -2.5rem;
+    }
+    .static-images p{
+        width: 70%;
+        font-size: 1rem;
+    }
+
+    .main-image img {
+      max-width: 100%;
+    }
+  }
+  
+  @media (min-width: 1440px) {
+    .heroD{
+        padding: 1rem 4rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .heroD .heroD1{
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .button-section{
+        margin:  0;
+    }
+    .hero .subtitle{
+        font-size: 1.25rem;
+    }
+    .side-images{
+        width: 116%;
+        max-width: 116%;
+    }
+
+    .section2{
+        width: 50%;  
+    }
+    .hero{
+        width: 100%;
+    }
+    .main-image{
+      max-width: 75%;
+    }
+    .main-image img {
+      max-width: 100%;
+    }
+    .button-section{
+        width: 70%;
+    }
+    .btn-filled{
+        font-size: 1.25rem !important;
+        padding: 1.5rem 2rem !important;
+        border-radius: 15px !important;
+        width: 50%;
+    }
+    .btn-outline{
+        font-size: 1.25rem !important;
+        padding: 1.5rem 2rem !important;
+        border-radius: 15px !important;
+        width: 50%;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  
+@media (min-width: 768px) {
+
+    .containerSection3 {
+        font-size: 1.2rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+    .card{
+        max-width: 100%;
+        flex-direction: row;
+        max-width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap:2
+    }
+    .section{
+        width: 48%;
+    }
+    }
+
+@media (min-width: 1440px) {
+    .card{
+        width: 100%;
+        max-width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+  }
+    .card .section{
+        width: 25%;
+  }
+    .card .submit-btn{
+        width: 15%;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+    .result-check-container{
+        max-width: 90% !important;
+    }
+}
+
+
+
+@media (min-width: 1440px) {
+    .vaccine-logo-container{
+        padding: 1.5rem 1rem;
+    }
+    .vaccine-logo-container img{
+        width: 7%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+    .vaccination-benefits-section{
+        justify-content: start !important;
+    }
+    .vaccination-benefits-container{
+        margin-left: 3rem;
+    }
+
+
+    .section8{
+        justify-content: start !important;
+    }
+    .immune-protection-card{
+        margin-left: 3rem;
+        max-width: 50% !important;
+    }
+    .immune-title{
+        font-size: 1.2rem !important;
+        margin: 2rem 0;
+    }
+    .immune-description{
+        font-size: 1.1rem !important;
+    }
+
+
+
+
+    .protection-cards-section{
+        flex-direction: row !important;
+        width: 90%;
+    }
+    .card-title{
+        font-size: 1.2rem !important;
+    }
+
+
+
+    .section11 .symptoms-image{
+        margin: 0 !important;
+    }
+    .section11 .symptoms-section{
+        padding: 2rem 2rem 0 2rem !important;
+    }
+}
+
+
+
+
+@media (min-width: 1440px) {
+    .result-check-container{
+        max-width: 100%;
+        padding: 0 0 3rem;
+    }
+    .result-check-form{
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 1rem 3rem;
+    }
+    .result-check-input{
+        width: 45%;
+        border-radius: 20px;
+        padding: 1rem;
+        font-size: 1.1rem;
+        background: transparent;
+        border: 2px #cccccc94 solid;
+    }
+    .result-check-button {
+        width: 10%;
+    }
+    .result-check-title{
+        background: #cccccc38;
+        text-align: start;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        padding: 1.4rem;
+        font-size: 1.1rem;
+    }
+    .result-check-footer{
+        font-size: 1.1rem;
+        width: 60%;
+        margin: auto;
+        padding: .7rem;
+        border-radius: 20px;
+        margin-top: 1rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1440px) {
+
+    .section7{
+        padding: 3rem 5rem;
+    }
+    .vaccination-benefits-container{
+        max-width: 100%;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .vaccination-benefits-section{
+        display: flex;
+        justify-content: space-between;
+        text-align: start;
+        width: 100%;
+    }
+    .benefits-description{
+        font-size: 1.2rem;
+    }
+    .benefits-title{
+        font-size: 2.5rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1440px) {
+    
+    .section8{
+        justify-content: start;
+        padding: 0;
+    }
+    .immune-icon{
+        margin: 2rem 0;
+        width: 4rem;
+        height: 4rem;
+    }
+    .immune-title{
+        font-size: 1.5rem;
+    }
+    .immune-description{
+        font-size: 1rem;
+        margin: 2rem 0;
+    }
+    .immune-read-more{
+        font-size: 1rem;
+    }
+    .immune-protection-card{
+        width: 75% !important; 
+        max-width: 75% !important;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1440px) {
+    .section9{
+        width: 60%;
+        display: flex;
+        align-items: end;
+    }
+    .card-title{
+        font-size: 1.2rem;
+        margin: 3rem 0;
+    }
+    .protection-cards-section{
+        display: flex;
+        padding: 0;
+        flex-direction: row;
+        width: 100%;
+    }
+    .card-icon{
+        width: 4rem ;
+        height: 4rem;
+    }
+    .card-read-more{
+        font-size: 1rem ;
+    }
+    .section89{
+        display: flex;
+        background: #0d1b47;
+        justify-content: space-between;
+        padding: 2rem 5rem 4rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1440px) {
+    .vaccine-registration-section{
+        width: 100%;
+        padding: 3rem 5rem;
+    }
+    .registration-card{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    
+    .vaccine-image-container{
+        width: 40%;
+    }
+    
+    .registration-form{
+        width: 50%;
+        padding-right: 15rem;
+    }
+
+    .vaccine-image{
+        padding: 5rem;
+    }
+    .phone-input-container{
+        width: 75%;
+    }
+    .verify-button {
+        width: 20%;
+        padding: 1rem;
+    }
+    .inputPhoneSu{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    button:not(:disabled) {
+        margin: 0;
+    }
+   
+    .form-label{
+        font-size: 1.1rem;
+        font-weight: 700;
+    }
+    .mobile-instructions{
+        font-size: 1.1rem;
+    }
+    .registration-title {
+        font-size: 3rem;
+        width: 45%;
+        text-align: start;
+        padding-left: 7.5rem;
+        margin: 0;
+    }
+    .form-label{
+        font-size: 1.4rem;
+    }
+    .inputPhoneSu{
+        margin: 3rem 0;
+    }
+    .already-registered{
+        font-size: 1.1rem;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+    .registration-title{
+        font-size: 3rem;
+    }
+    .vaccine-registration-section{
+        background-color: transparent;
+        width: 100%;
+        text-align: start;
+    }
+    .vaccine-image {
+        width: 80%;
+    }
+    .section11 .symptom-label{
+        padding: 0rem 2rem 0 0;
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+    .section11 .virus-icon{
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .section12{
+        background-image: url('../images/Group\ 74.png') !important;
+        background-size: cover !important;
+    }
+    .section12 .feedback-header h2{
+        font-weight: 900;
+        font-size: 1.2rem;
+    }
+    .section12 .feedback-card{
+        max-width: 50% !important;
+    }
+    .section12 .feedback-card .feedback-text{
+        margin: 4rem 0 !important;
+        font-size: 1rem !important;
+    }
+    .section12 .feedback-card h4{
+        font-size: 1.2rem !important;
+        font-size: 900 !important;
+    }
+    .section12 .feedback-cards {
+        gap: 2rem !important;
+        align-items: center !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+    }
+
+}
+@media (min-width: 1440px) {
+    .section11{
+        min-height: 0;
+    }
+    .section11 .symptoms-section{
+        width: 70%;
+        max-width: none;
+    }
+    .section11 .symptom-label{
+        padding: 0rem 2rem 0 0;
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+    .section11 .virus-icon{
+        width: 5rem;
+        height: 5rem;
+    }
+
+
+    .difficulty-breathing{
+        right: -14%;
+        top: 32%;
+    }
+    .sore-throat{
+        right: -20% ;
+        bottom: 10%;
+    }
+    .high-fever{
+        left: 15%;
+    }
+    .dry-cough{
+        left: -3%;
+        top: 32%;
+    }
+    .loss-smell{
+        left: -25%;
+        bottom: 10%;
+    }
+    .section11 .symptoms-section{
+        padding: 3rem 3rem 0 3rem ;
+    }
+    .section11 .symptoms-image{
+        width: 50%;
+        margin: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+    .section12 .feedback-cards {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .section12 .feedback-card {
+        flex: 1;
+        max-width: 300px;
+    }
+}
+@media (min-width: 1443px) {
+    .section12{
+        background-image: url('../images/COV.svg');
+    }
+    .section12 .feedback-header h3{
+        font-weight: 700;
+    }
+    .section12 .feedback-header h2{
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    .section12 .feedback-header p{
+        font-size: 1.2rem;
+        width: 40%;
+        margin:3rem  auto 5rem;
+        font-weight: 600;
+    }
+    .section12 .feedback-cards{
+        flex-direction: row !important;
+        justify-content: space-evenly !important;
+
+    }
+    .section12 .feedback-card{
+        width: 25% !important;
+        padding: 1rem;
+        max-width: 25% !important; 
+    }
+    .section12 .feedback-card h4{
+        font-size: 1.4rem;
+        font-weight: 700;
+    }
+    .section12 .feedback-card .location{
+        font-weight: 700;
+    }
+    .section12 .feedback-card .feedback-text {
+        font-size: 1.1rem;
+        margin: 3rem auto 2rem;
+        width: 80%;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+
+    .section13{
+        left: 5%;
+        width: 90%;
+        margin: auto;
+    }
+    .section13 .quote-box{
+        width: 99%;
+        padding: 3rem ;
+        max-width:99% !important;
+    }
+    .section13 .quote-box h2 {
+        font-size: 1.5em;
+        font-weight: 700;
+    }
+    .section13 .quote-box p{
+        font-size: 1rem;
+        opacity: .9 !important;
+    }
+    .section13 .email-input{
+        width: 95%;
+        margin: auto;
+        height: 4rem;
+        box-shadow:none
+    }
+    
+    .section13 .email-input input{
+        height: 100%;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+    .section13 .email-input button{
+        height: 100%;
+        width: 20%;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    .section13 .email-input button img {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    .section14 .footer-section{
+        padding: 15rem 20px 40px !important;
+    }
+    .section14 .footer-menu {
+        flex-direction: row !important;
+        gap: 1rem;
+        font-size: 1rem !important;
+    }
+    .section14 .social-icons a img {
+        width: 1.5rem !important;
+        height: 1.5rem !important;
+    }
+    .section14 .footer-content{
+        max-width: 85% !important;
+    }
+}
+@media (min-width: 1440px) {
+    .section13{
+        left: 15%;
+        width: 70%;
+        margin: auto;
+    }
+    .section13 .quote-box{
+        width: 99%;
+        padding: 3rem ;
+        max-width:99% !important;
+    }
+    .section13 .quote-box h2 {
+        font-size: 2.3em;
+        font-weight: 700;
+    }
+    .section13 .quote-box p{
+        font-size: 1.2rem;
+        opacity: .9 !important;
+    }
+    .section13 .email-input{
+        width: 50%;
+        margin: auto;
+        height: 4rem;
+        box-shadow:none
+    }
+    .section13 .email-input input{
+        height: 100%;
+    }
+    .section13 .email-input button{
+        height: 100%;
+        width: 20%;
+    }
+    .section13 .email-input button img {
+        width: 1.5rem;
+        height: 1.5rem;
+}
+
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 1440px) {
+    .section14 .footer-content {
+        max-width: 100% !important;
+        width: 100% !important;
+        margin: auto;
+        align-items: center !important;
+        display: flex;
+        justify-content: space-between;
+        margin: 5rem 0;
+
+    }
+    .section14 .footer-menu{
+        flex-direction: row;
+        gap: 2rem;
+    }
+    .section14 .social-icons a img{
+        width: 2rem;
+        height: 2rem;
+    }
+    .section14 .footer-menu a{
+        font-size: 1.5rem;
+    }
+    .section14 .footer-section {
+        padding: 10rem 4rem 40px;
+    }
+    .section14 .footer-content h2{
+        font-size: 2rem;
+    }
+}

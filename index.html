@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- font type -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- ------- -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- css style -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/mediaQueries.css" />
+    
+    
+    <!-- ------- -->
+  </head>
+  <body>
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-md vaccination-nav">
+      <div class="container-fluid">
+        <a class="navbar-brand vaccination-logo" href="#">
+          Vaccination.ng
+          <div class="logo-underline"></div>
+        </a>
+
+        <button
+          class="navbar-toggler vaccination-menu-btn"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarMenu"
+          aria-controls="navbarMenu"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarMenu">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Schedule</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact us</a>
+            </li>
+          </ul>
+          <a href="#" class="status-btn d-none d-md-inline-block"
+            >Check Status</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <!-- End NavBar -->
+
+    <div class="heroD">
+      <div class="heroD1">
+        <!-- hero -->
+        <div class="sectionHero">
+          <div class="hero">
+            <div class="subtitle">Get Vaccinated. Boost your Immune System</div>
+            <div class="title">
+              COVID-19 Vaccination Got Easier With,
+              <span class="highlight">Vaccination.ng</span>
+            </div>
+            <div class="description">
+              Vaccination.ng will help you find the nearest centre for
+              vaccination, in all 36 states in Nigeria.
+            </div>
+          </div>
+        </div>
+
+        <!-- endHero -->
+
+        <!-- Section1 -->
+        <div class="button-section">
+          <button class="btn btn-filled">Get Vaccine</button>
+          <button class="btn btn-outline">Help Centre</button>
+        </div>
+        <!-- end Section1 -->
+      </div>
+
+      <!-- Section2 -->
+      <div class="section2">
+        <div class="main-image">
+          <img id="displayedImage" src="./images/3.png" alt="Main Display" />
+          <div class="side-images">
+            <div class="img">
+              <img
+                src="./images/1.png"
+                onclick="updateImage('./images/1.png')"
+                alt="Side Image 1"
+              />
+            </div>
+            <div class="img">
+              <img
+                src="./images/2.png"
+                onclick="updateImage('./images/2.png')"
+                alt="Side Image 2"
+              />
+            </div>
+          </div>
+          <div class="static-images">
+            <div class="img2">
+              <img src="./images/4.png" alt="Static Image 1" />
+              <!-- <img src="./images/Rectangle 9.png" alt="Static Image 1">
+                <img src="./images/Rectangle 10.png" alt="Static Image 2">
+                <img src="./images/Rectangle 11.png" alt="Static Image 3"> -->
+            </div>
+            <div class="specialists-text">
+              <p>20+ Specialists</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--End Section2 -->
+
+    <!-- Section3 -->
+
+    <div class="containerSection3">
+      <div>
+        <svg viewBox="0 0 24 24">
+          <path
+            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-6h2v6zm0-8h-2V7h2v4z"
+          />
+        </svg>
+      </div>
+      <span>Schedule your Vaccination</span>
+    </div>
+
+    <!--End Section3 -->
+
+    <!-- Section4 -->
+
+    <div class="section4">
+      <div class="card">
+        <div class="section">
+          <div class="icon-container">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-6h2v6zm0-8h-2V7h2v4z"
+              />
+            </svg>
+          </div>
+          <div>
+            <div class="section-title">Location</div>
+            <div class="section-value">Ikeja Lagos, Nigeria</div>
+          </div>
+        </div>
+        <div class="section">
+          <div class="icon-container">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V10h14v9zM7 12h5v5H7z"
+              />
+            </svg>
+          </div>
+          <div>
+            <div class="section-title">Date</div>
+            <div class="section-value">29 February, 2022</div>
+          </div>
+        </div>
+        <div class="section">
+          <div class="icon-container">
+            <svg viewBox="0 0 24 24">
+              <path
+                d="M12 4a4 4 0 00-8 0 4 4 0 008 0zm-4-3a3 3 0 110 6 3 3 0 010-6zm8 11a5 5 0 00-9.9.6 1 1 0 001.05.86h.2a4 4 0 007.3 0H16a1 1 0 001.05-.86A5 5 0 0016 12z"
+              />
+            </svg>
+          </div>
+          <div>
+            <div class="section-title">Vaccine Type</div>
+            <div class="section-value">Moderna</div>
+          </div>
+        </div>
+        <button class="submit-btn">Submit</button>
+      </div>
+    </div>
+
+    <!--End Section4 -->
+
+    <!-- Section5 -->
+
+    <div class="vaccine-logo-container">
+      <img src="./images/Moderna_logo 1.png" alt="Moderna Logo" />
+      <img src="./images/Pfizer_(2021) 1.png" alt="Pfizer Logo" />
+      <img src="./images/sinovac1336 1.png" alt="AstraZeneca Logo" />
+      <img
+        src="images/yellow-logo-zeneca-pharmaceutical-industry-brand 1.png"
+        alt="Sinovac Logo"
+      />
+    </div>
+
+    <!--End Section5 -->
+
+    <!-- Section6 -->
+    <div class="section6">
+      <section class="result-check-section">
+        <div class="result-check-container">
+          <h2 class="result-check-title">
+            Check your COVID-19 result on our Database
+          </h2>
+          <form class="result-check-form">
+            <input
+              type="text"
+              class="result-check-input"
+              placeholder="Full Name"
+            />
+            <input
+              type="text"
+              class="result-check-input"
+              placeholder="NIK Number"
+            />
+            <button type="submit" class="result-check-button">Check</button>
+          </form>
+          <p class="result-check-footer">
+            Need a certificate for your COVID-19 result?
+            <a href="#">Please click here</a>
+          </p>
+        </div>
+      </section>
+    </div>
+    <!--End Section6-->
+
+    <!-- Section7 -->
+    <div class="section7">
+      <section class="vaccination-benefits-section">
+        <div class="vaccination-benefits-container">
+          <h2 class="benefits-title">Why get vaccinated today?</h2>
+          <p class="benefits-description">
+            Magna adipiscing at elit at ornare lectus nibh lorem.<br />
+            Ac, sed ac lorem pellentesque vestibulum risus matti.<br />
+            In molestie condimentum malesuada non.
+          </p>
+        </div>
+      </section>
+    </div>
+    <!--End Section7-->
+
+    <div class="section89">
+      <!-- Section8 -->
+      <div class="section8">
+        <section class="immune-protection-card">
+          <div class="immune-card-content">
+            <div class="immune-icon">
+              <img src="./images/shild.svg" style="width: 100%" alt="" />
+            </div>
+            <h3 class="immune-title">
+              Protects your immune system against viruses
+            </h3>
+            <p class="immune-description">
+              Velit ut consectetur mauris, orci amet, faucibus.<br />
+              Sit turpis fringilla ipsum pretium, dictum.<br />
+              Dolor eget vel nulla lorem ac.
+            </p>
+            <a href="#" class="immune-read-more">Read More &rarr;</a>
+          </div>
+        </section>
+      </div>
+      <!--End Section8-->
+
+      <!-- Section9 -->
+      <div class="section9">
+        <section class="protection-cards-section">
+          <div class="protection-card">
+            <div class="card-icon">
+              <img src="./images/person2.svg" style="width: 100%" alt="" />
+            </div>
+            <h3 class="card-title">Minimize the spread of the Virus</h3>
+            <a href="#" class="card-read-more">Read More &rarr;</a>
+          </div>
+
+          <div class="protection-card">
+            <div class="card-icon">
+              <img src="./images/Group 311.svg" style="width: 100%" alt="" />
+            </div>
+            <h3 class="card-title">Protect yourself</h3>
+            <a href="#" class="card-read-more">Read More &rarr;</a>
+          </div>
+        </section>
+      </div>
+      <!--End Section9-->
+    </div>
+
+    <!-- Section10 -->
+    <div class="section10">
+      <section class="vaccine-registration-section">
+        <h2 class="registration-title">
+          Get your vaccine <br />registration today
+        </h2>
+        <div class="registration-card">
+          <div class="vaccine-image-container">
+            <img
+              src="./images/Group 40.png"
+              alt="COVID-19 Vaccine"
+              class="vaccine-image"
+            />
+          </div>
+          <form class="registration-form">
+            <label class="form-label">Patient’s Full Name</label>
+            <input type="text" class="form-input" placeholder="Full name" />
+
+            <label class="form-label">Mobile Number</label>
+            <p class="mobile-instructions">
+              Notifications for appointment and reminders will be sent to this
+              provided number
+            </p>
+            <div class="inputPhoneSu">
+              <div class="phone-input-container">
+                <img src="./images/twemoji_flag-nigeria.png" alt="" />
+                <input
+                  type="text"
+                  class="phone-input"
+                  placeholder="Phone number"
+                />
+              </div>
+
+              <button type="button" class="verify-button">Verify</button>
+            </div>
+            <button type="submit" class="submit-button">Submit</button>
+            <p class="already-registered">
+              Already registered? <a href="#">Check your status</a>
+            </p>
+          </form>
+        </div>
+      </section>
+    </div>
+    <!--End Section10-->
+
+    <!-- Section11 -->
+    <div class="section11">
+      <section class="symptoms-section">
+        <h2 class="section-subtitle">Covid-19 Prevention</h2>
+        <h1 class="section-title"><span> COVID-19 </span> Symptoms</h1>
+        <p class="section-description">
+          Adipiscing nec etiam tortor elit quisque. Arcu aliquet convallis
+          aenean eu velit. Mi vestibulum, ullamcorper venenatis imperdiet augue
+          arcu donec neque.
+        </p>
+        <div class="symptoms-container">
+          <img
+            src="./images/person.svg"
+            alt="Person with mask"
+            class="symptoms-image"
+          />
+
+          <div class="symptom-label high-fever">
+            <img
+              src="./images/coronavirus.svg"
+              alt="virus icon"
+              class="virus-icon"
+            />
+            High Fever
+          </div>
+          <div class="symptom-label dry-cough">
+            <img
+              src="./images/coronavirus.svg"
+              alt="virus icon"
+              class="virus-icon"
+            />
+            Dry Cough
+          </div>
+          <div class="symptom-label loss-smell">
+            <img
+              src="./images/coronavirus.svg"
+              alt="virus icon"
+              class="virus-icon"
+            />
+            Loss sense of smell
+          </div>
+          <div class="symptom-label loss-taste">
+            <img
+              src="./images/coronavirus.svg"
+              alt="virus icon"
+              class="virus-icon"
+            />
+            Loss sense of taste
+          </div>
+          <div class="symptom-label difficulty-breathing">
+            <img
+              src="./images/coronavirus.svg"
+              alt="virus icon"
+              class="virus-icon"
+            />
+            Difficulty Breathing
+          </div>
+          <div class="symptom-label sore-throat">
+            <img
+              src="./images/coronavirus.svg"
+              alt="virus icon"
+              class="virus-icon"
+            />
+            Sore Throat
+          </div>
+        </div>
+      </section>
+    </div>
+    <!--End Section11-->
+
+    <!-- Section12-->
+
+    <div class="section12">
+      <section class="feedback-section">
+        <div class="feedback-header">
+          <h3>FEEDBACK</h3>
+          <h2>What our Patients Think</h2>
+          <p>
+            Adipiscing nec etiam tortor elit quisque. Arcu aliquet convallis
+            aenean eu velit. Mi vestibulum, ullamcorper venenatis imperdiet
+            augue arcu ue.
+          </p>
+        </div>
+        <div class="feedback-cards">
+          <div class="feedback-card">
+            <img
+              src="./images/Rectangle 24.png"
+              alt="Oyindamola Maja"
+              class="avatar"
+            />
+            <h4>Oyindamola Maja</h4>
+            <p class="location">Badagry, Lagos</p>
+            <p class="feedback-text">
+              “Been stressing about a close centre to get the covid-19 vaccine,
+              until I tried Vaccination.ng”
+            </p>
+          </div>
+          <div class="feedback-card highlighted">
+            <img
+              src="./images/Rectangle 25.png"
+              alt="Okewowo Lekan"
+              class="avatar"
+            />
+            <h4>Okewowo Lekan</h4>
+            <p class="location">Ikeja, Lagos</p>
+            <p class="feedback-text">
+              “Got my vaccine very close to my house. Was very easy scheduling
+              an appointment.”
+            </p>
+          </div>
+          <div class="feedback-card">
+            <img
+              src="./images/Rectangle 26.png"
+              alt="Kafaru Temitope"
+              class="avatar"
+            />
+            <h4>Kafaru Temitope</h4>
+            <p class="location">Obanikoro, Lagos</p>
+            <p class="feedback-text">
+              “Been stressing about a close centre to get the covid-19 vaccine,
+              until I tried Vaccination.ng”
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!--End Section12-->
+
+    <!-- Section14-->
+
+    <div class="section14">
+      <!-- Section13-->
+
+      <div class="section13">
+        <section class="quote-section">
+          <div class="quote-box">
+            <h2>Get a quote</h2>
+            <p>Please do enter your email address below</p>
+            <div class="email-input">
+              <input type="email" placeholder="lenux.ng@gmail.com" />
+              <button type="submit">
+                <img src="./images/send.svg" alt="" width="100%" />
+              </button>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!--End Section13-->
+
+      <footer class="footer-section">
+        <div class="footer-content">
+          <h2>Vaccination.ng</h2>
+          <div class="footer-menu">
+            <a href="#" class="active">Home</a>
+            <a href="#">Services</a>
+            <a href="#">Schedule</a>
+            <a href="#">Contact us</a>
+          </div>
+          <div class="social-icons">
+            <a href="#"><img src="./images/youtube.svg" alt="YouTube" /></a>
+            <a href="#"><img src="./images/instagram.svg" alt="Instagram" /></a>
+            <a href="#"><img src="./images/twitter.svg" alt="Twitter" /></a>
+            <a href="#"><img src="./images/facebook.svg" alt="Facebook" /></a>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!--End Section14-->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>

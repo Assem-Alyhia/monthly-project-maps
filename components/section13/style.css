@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.section13 {
+    background-image: url('./imagesSection12/Group\ 74.png');
+    background-size: cover;
+}
+
+.section13 .quote-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: #C4C4C426;
+}
+
+.section13 .quote-box {
+    background-color: #00aaff; 
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+}
+
+.section13 .quote-box h2 {
+    color: #fff;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.section13 .quote-box p {
+    color: #e0e0e0;
+    font-size: 0.7em;
+    margin-bottom: 20px;
+}
+
+.section13 .email-input {
+    box-shadow: 0 1px 2px #898989;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    overflow: hidden;
+    height: 3rem;
+    padding: 5px;
+}
+
+.section13 .email-input input {
+    border: none;
+    outline: none;
+    height: 80%;
+    padding: 1.2rem;
+    font-size: 0.7em;
+    text-align: center;
+    flex: 1;
+    color: #666;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+.section13 .email-input input::placeholder {
+    color: #b3b3b3;
+}
+
+.section13 .email-input button {
+    height: 20%;
+    background-color: #001f3f; 
+    border: none;
+    padding: 1.2rem;
+    cursor: pointer;
+    display: flex;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.section13 .email-input button img {
+    width: 16px;
+    height: 16px;
+    color: #fff;
+}

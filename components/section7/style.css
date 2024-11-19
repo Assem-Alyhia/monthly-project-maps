@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.section7 {
+    background-color: #0d1b47;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.vaccination-benefits-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 2rem;
+}
+
+.vaccination-benefits-container {
+    max-width: 400px;
+    text-align: left;
+    color: #fff;
+}
+
+.benefits-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.benefits-description {
+    font-size: 1rem;
+    color: #b0bec5;
+    line-height: 1.5;
+}

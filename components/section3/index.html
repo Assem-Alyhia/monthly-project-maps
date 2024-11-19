@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vaccination Header</title>
+    <style>
+      /* قاعدة التنسيق العامة */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      /* تحديد عناصر الهيدر بناءً على شجرة الأبناء */
+      .containerSection3 {
+        display: flex;
+        align-items: center;
+        background-color: #0d1b47;
+        padding: 10px 20px;
+        border-radius: 8px;
+        color: #fff;
+        font-family: Arial, sans-serif;
+        font-weight: bold;
+        font-size: 1rem;
+      }
+      .containerSection3 > div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #1e88e5;
+        width: 40px;
+        height: 40px;
+        border-radius: 8px;
+        margin-right: 12px;
+      }
+      .containerSection3 > div > svg {
+        width: 24px;
+        height: 24px;
+        fill: #0d1b47;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="containerSection3">
+      <div>
+        <svg viewBox="0 0 24 24">
+          <path
+            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-6h2v6zm0-8h-2V7h2v4z"
+          />
+        </svg>
+      </div>
+      <span>Schedule your Vaccination</span>
+    </div>
+  </body>
+</html>

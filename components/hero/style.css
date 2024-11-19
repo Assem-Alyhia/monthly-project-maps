@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+/* Base Styles */
+.sectionHero {
+    font-family: Arial, sans-serif;
+    background-color: #1A1A3C;
+    color: #FFFFFF;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero {
+    text-align: left;
+    padding: 1.25rem 2rem;
+}
+
+.hero .subtitle {
+    font-size: 0.875rem;
+    color: #33BBFF;
+}
+
+.hero .title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.hero .highlight {
+    color: #33BBFF;
+}
+
+.hero .description {
+    font-size: 0.875rem;
+    color: #CCCCCC;
+    margin-top: 0.625rem;
+}
+
+/* Medium screens */
+@media (min-width: 768px) {
+    .hero{
+        padding: 3rem;
+        width: 31.375rem;
+    }
+    .hero .title {
+        font-weight: 700;
+        font-size: 2.25rem;
+    }
+
+    .hero .description {
+        font-weight: 700;
+        font-size: 1.125rem;
+        margin-top: 2.5rem;
+    }
+    .sectionHero{
+        justify-content: left;
+    }
+}
+
+/* Large screens */
+@media (min-width: 1440px) {
+    .hero {
+        padding: 2.5rem;
+    }
+
+    .hero .title {
+        font-size: 3rem;
+    }
+
+    .hero .description {
+        font-size: 1.25rem;
+    }
+}
